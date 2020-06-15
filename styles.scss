@@ -3,6 +3,7 @@
 body {
   font-family: "Nunito", sans-serif;
   width: 90%;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
@@ -64,6 +65,15 @@ p {
   }
 }
 
+.meet-kenzie {
+  width: 80%;
+  margin: auto;
+  display: grid;
+    div {
+      margin: 10px;
+    }
+}
+
 /* Block styles */
 
 .nav_button {
@@ -78,6 +88,30 @@ p {
 }
 iframe {
   margin: 5px;
+}
+
+.our-story {
+  text-align: center;
+  border: gray solid 1px;
+    a {
+      text-decoration: none;
+      font-weight: 700;
+    }
+  padding: 10px;
+}
+
+.staff {
+  border: blue solid 1px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  &_block {
+    grid-template-rows: minmax(100px auto);
+  }
+}
+
+.students {
+  border: green solid 1px;
 }
 
 .contact_form input {
