@@ -1,0 +1,43 @@
+/* Base styles */
+
+body {}
+
+header {}
+
+footer {}
+
+.button {}
+
+.row {}
+
+h1, h2, h3, h4, h5, h6 {}
+
+p {}
+
+/* Layout styles */
+
+.navbar {}
+
+.hook {}
+
+.quotes {}
+
+.programs {}
+
+.compare {}
+
+.our-story {}
+
+.staff {}
+
+.students {}
+
+.contact {}
+
+/* Block styles */
+
+.quote_block {}
+
+.program_block {}
+
+.staff_block {}
